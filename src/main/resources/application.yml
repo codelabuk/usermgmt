@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: User Management
+
+server:
+  port: 8082
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    info:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+info:
+  app:
+    encoding: UTF-8
+    target: 17
+  name:
+    of:
+      app: user management app
