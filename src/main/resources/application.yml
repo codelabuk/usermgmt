@@ -24,9 +24,3 @@ info:
     of:
       app: user management app
 
-
-#springfox:
-#  documentation:
-#    swagger:
-#      v2:
-#        path: /api-docs
