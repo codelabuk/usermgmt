@@ -22,6 +22,7 @@ public class UserAppInfoEndpoint {
         return userAppInfo;
     }
 
+    @ReadOperation
     public String userAppEndPointByName(@Selector String name){
         return "User Management Operation: "+ name;
     }
